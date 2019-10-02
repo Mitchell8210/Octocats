@@ -17,17 +17,18 @@ li.octocat{
      display:flex;
     
     width:300px;
-    border: 1px solid gray;
+    border: 2px solid rgb(215,215,215);
     border-radius: 1%;
     margin:10px;
+    
        
 }
 .octocat::before{
     content: "";
     display:block;
     position: absolute;
-    top: 311px;
-    left:297px;
+    top: 314px;
+    left:292px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -92,7 +93,9 @@ ul.authors{
     
     display:flex;
    align-items: center;
-   border-bottom:1px solid black;
+   border-bottom:2px solid rgb(215, 215, 215);
+   margin-left:8px;
+   margin-right:8px;
    
 }
 .authors{
@@ -101,4 +104,8 @@ ul.authors{
 .authors li{
     display:flex;
     
+}
+ul{
+    display:flex; 
+    flex-wrap: wrap;
 }
