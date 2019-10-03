@@ -1,8 +1,11 @@
 body{
    display: block;
    flex-direction: row;
+   width: 100%;
 }
-
+.octodex{
+    max-width:1000px;
+}
 ul.octodex{
    display: flex;
    list-style: none;
